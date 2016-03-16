@@ -1,0 +1,24 @@
+{
+  "name": "hydra-walking-skeloton",
+  "description": "Walking Skeleton of Hydra app. It shall include entire framework objects and folders. Created for a basic working model",
+  "main": "server.js",
+  "authors": [
+    "sathishj",
+    "umapathy",
+    "ivarshanki"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
