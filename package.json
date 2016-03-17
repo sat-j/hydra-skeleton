@@ -4,12 +4,19 @@
   "description": "Walking Skeleton of Hydra app. It shall include entire framework objects and folders. Created for a basic working model",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "sathishj, umapathy, ivarshanki",
   "license": "ISC",
   "dependencies": {
-    "bower": "^1.7.7",
-    "express": "^4.13.4"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "stylus": "^0.54.2"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7"
   }
 }
